@@ -19,7 +19,7 @@ func GenerateMsgIDFromContext(c *gin.Context) string {
 	}
 	return requestId
 }
-
+//获取gin ip
 func GetClientIP(c *gin.Context) string {
 	ClientIP := c.ClientIP()
 	//fmt.Println("ClientIP:", ClientIP)
