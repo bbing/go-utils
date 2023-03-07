@@ -6,5 +6,6 @@ type Responses interface {
 	SetMsg(string)
 	SetData(interface{})
 	SetSuccess(bool)
+	SetDebug(string)
 	Clone() Responses
 }
